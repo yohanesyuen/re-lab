@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.idea/
+.vscode/
+scratch/
+local/
+
+# Sample files under test are typically proprietary or large; keep them local.
+formats/*/fixtures/*
+!formats/*/fixtures/.gitkeep
