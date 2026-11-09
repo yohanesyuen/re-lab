@@ -3,15 +3,21 @@ name = "re-lab"
 version = "0.1.0"
 description = "Reverse-engineering lab: generic binary/structure/analysis tooling plus per-format probes and notes"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
     "click",
     "olefile",
+    "pillow",
+    "puremagic>=2.2.0"
 ]
 
 [dependency-groups]
 dev = [
     "pytest>=8.0",
+]
+
+rvt = [
+    "rvt>=0.1.2"
 ]
 
 [build-system]
