@@ -13,7 +13,8 @@ uv run pytest
 uv run scripts/scan.py path/to/sample.bin
 ```
 
-Every module is currently a stub with a docstring describing what it will do.
+Binary decoders expose recursive discovered artifacts through the shared
+`Archive` mapping; most other modules remain scoped stubs.
 
 ## Layout
 
